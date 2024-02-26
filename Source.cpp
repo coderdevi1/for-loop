@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int x;
-	for (x = 0; x < 7; x++)
+	for (int x = 1; x < 101; x++)
 	{
-		cout << "Ronak Pradhan";
-	}
+		cout << x<<endl;
+	} 
 }
